@@ -5,7 +5,12 @@
 
 int main()
 {
-    float r = 5;
+    float r;
+    
+    printf("Please input the r:\n");
+    scanf("%f", &r);
+    
     printf("V = %.1f", PI*N*r*r*r);
+    
     return 0;
 }
