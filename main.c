@@ -5,7 +5,7 @@
 
 int main()
 {
-    float r = 10;
+    float r = 5;
     printf("V = %.1f", PI*N*r*r*r);
     return 0;
 }
